@@ -1,0 +1,135 @@
+/* Dinh dang chung */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    background-image: linear-gradient(135deg, #e0f2fe, #f8fafc);
+    color: #333;
+    text-align: center;
+}
+
+/* Tieu de */
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 35px 20px;
+    border-bottom: 5px solid #1d4ed8;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Noi dung chinh */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+section h2 {
+    color: #2563eb;
+}
+
+/* Anh dai dien */
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #2563eb;
+    margin: 10px auto;
+}
+
+/* So thich */
+.hobbies ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.hobbies li {
+    padding: 7px;
+    color: #334155;
+}
+
+/* Muc tieu */
+.goals {
+    border-left: 5px solid #2563eb;
+}
+
+.goals p {
+    line-height: 1.8;
+}
+
+/* Bang lien he */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #aaa;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+td {
+    background-color: #f8fafc;
+}
+
+/* Chan trang */
+footer {
+    background-color: #e2e8f0;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: #1d4ed8;
+}
+
+footer p {
+    color: #64748b;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
